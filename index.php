@@ -1,29 +1,75 @@
-<!DOCTYPE html>
-<html>
-    
-<head>
-    <title>Ali's Restaurant</title>
-    
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link href="../node_modules/normalize-css/normalize.css" rel="stylesheet" type="text/css">
-    <link href="https://file.myfontastic.com/ncjQH3qL3iqtxPyrLNBQDo/icons.css" rel="stylesheet">
-    <link href="https://fonts.googleapis.com/css?family=Oleo+Script|Open+Sans|Raleway:300,400" rel="stylesheet">
-    <link href="./public/stylesheets/main.css" rel="stylesheet" type="text/css">
-    
 
-</head>
-    
-<body>
+<!-- HOME PAGE -->
 
-    <div class="jumbotron">
-        Hello World
+
+
+<?php require_once './views/partials/header.php'; ?>
+
+<header>
+
+    <div>
+        <figure>
+            <img style="max-width:200px" src="./public/images/default-placeholder.png">
+            <h4>
+                Ditalini
+            </h4>
+        </figure>
     </div>
 
+    <div>
 
-  <script src="../node_modules/jquery/dist/jquery.js"></script>
-  <script src="./public/javascripts/bootstrap.js"></script>
-  <script src="../node_modules/lodash/lodash.js"></script>
-  <script src="./public/javascripts/index.bundle.js" charset="utf-8"></script>
+        <div>
+            <button></button>
+            <nav>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Menu</a></li>
+                    <li><a>Order Online</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </nav>
+        </div>
 
-</body>
-</html>
+        <div>
+            <nav>
+                <ul>
+                    <li><a>Home</a></li>
+                    <li><a>About</a></li>
+                    <li><a>Menu</a></li>
+                    <li><a>Order Online</a></li>
+                    <li><a>Contact</a></li>
+                </ul>
+            </nav>
+            <div>
+                <p>Reservations</p>
+                <p>123-456-7890</p>
+            </div>
+        </div>
+
+    </div>
+
+</header>
+
+
+<main class="page">
+
+    <hr>
+
+    <section>
+
+        <h1>Taste of the East</h1>
+        <h3>San Francisco's Most Acclaimed Asian Restaurant</h3>
+
+    </section>
+
+    <hr>
+
+    <section>
+        
+    </section>
+
+</main>
+
+
+<?php require_once'./views/partials/footer.php'; ?>
