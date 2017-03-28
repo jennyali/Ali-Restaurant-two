@@ -5047,4 +5047,104 @@ button.close {
   .hidden-print {
     display: none !important; } }
 
+/*===========================
+
+        GLOBAL VARIABLES
+
+=============================*/
+/* color
+-----------------------*/
+/* font-families
+-----------------------*/
+/* font-size
+-----------------------*/
+/* other sizes
+    18px, 30px, 20px, 15px, 28px, 24px
+*/
+/* margin/padding sizing
+-----------------------*/
+/* breakpoints
+-----------------------*/
+/*===========================================
+
+            ELEMENT VARIABLES
+
+==============================================*/
+/*===========================
+
+            MIXINS
+
+=============================*/
+@media (min-width: 1200px) {
+  .container {
+    width: 970px; } }
+
+.jumbotron {
+  background: none;
+  color: #FFFFFF; }
+
+body {
+  background-color: #3F221F;
+  background-image: url(/php-websites/ali-restaurant-two/public/images/food-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top; }
+
+header {
+  background-color: #261918; }
+
+footer {
+  background-color: #261918;
+  padding: 60px 0; }
+
+.home-page h1, .home-page h2, .home-page h3, .home-page h4, .home-page h5, .home-page h6, .home-page p, .home-page li, .home-page a {
+  color: #FFFFFF; }
+
+.welcome-section {
+  height: 700px;
+  background: rgba(38, 25, 24, 0.3); }
+
+.about-section {
+  background-image: url(/php-websites/ali-restaurant-two/public/images/italy-coast.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center; }
+  @media (min-width: 767px) {
+    .about-section {
+      height: 700px; } }
+
+.quote-section {
+  background-image: url(/php-websites/ali-restaurant-two/public/images/pasta-plate.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: left;
+  height: 700px; }
+  @media (min-width: 767px) {
+    .quote-section {
+      background-size: 700px;
+      background-position: right; } }
+
+.menu-section {
+  background: rgba(237, 219, 196, 0.9);
+  padding: 45px 0; }
+
+.menu-section__category {
+  background: #3F221F; }
+
+@media (min-width: 767px) {
+  .menu-item__inner-text {
+    display: -webkit-box;
+    display: -ms-flexbox;
+    display: flex;
+    -webkit-box-pack: justify;
+        -ms-flex-pack: justify;
+            justify-content: space-between; } }
+
+@media (min-width: 767px) {
+  .menu-item__inner-text span {
+    border-bottom: 1px dotted black;
+    width: 60%; } }
+  @media (min-width: 767px) and (min-width: 992px) {
+    .menu-item__inner-text span {
+      width: 70%; } }
+
 /*# sourceMappingURL=main.css.map*/

@@ -1,0 +1,15 @@
+
+.container {
+
+    @include mediaQ--min($bp-lg) {
+        width: 970px;
+    }
+}
+
+.jumbotron {
+    background: none;
+    color: $light;
+
+}
+
+

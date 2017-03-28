@@ -1,0 +1,20 @@
+
+
+.menu-item__inner-text {
+
+    @include mediaQ--min($bp-sm) {
+        display: flex;
+        justify-content: space-between;
+    }
+
+        span {
+            @include mediaQ--min($bp-sm) {
+                border-bottom: 1px dotted black;
+                width: 60%;
+
+                @include mediaQ--min($bp-md) {
+                    width: 70%;
+            }
+        }
+    }
+}

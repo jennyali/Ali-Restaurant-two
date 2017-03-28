@@ -1,0 +1,45 @@
+
+.home-page {
+    h1, h2, h3, h4, h5, h6, p, li, a {
+        color: $light;
+    }
+}
+
+.welcome-section {
+    height: $home-section-height;
+
+    background: rgba($primary-dark-color, 0.3);
+}
+
+.about-section {
+    background-image: url(/php-websites/ali-restaurant-two/public/images/italy-coast.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+
+    @include mediaQ--min($bp-sm) {
+        height: $home-section-height;
+    }
+}
+
+.quote-section {
+    background-image: url(/php-websites/ali-restaurant-two/public/images/pasta-plate.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: left;
+    height: $home-section-height;
+
+    @include mediaQ--min($bp-sm) {
+        background-size: $home-section-height;
+        background-position: right;
+    }
+}
+
+.menu-section {
+    background: rgba($secondary-color, 0.9);
+    padding: ($mp-double + $mp-default) 0;
+}
+
+.menu-section__category {
+    background: $primary-color;
+}
