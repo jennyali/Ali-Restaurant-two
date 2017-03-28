@@ -36,32 +36,40 @@
 
                 <hr>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
                 <hr>
@@ -71,32 +79,40 @@
 
                 <hr>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
-                <div>
+                <div class="menu-item">
                     <h5>Chicken Noodle Soup</h5>
-                    <p>This is an item on your menu. Briefly describe it</p>
-                    <span></span>
-                    <p>£9</p>
+                    <div class="menu-item__inner-text">
+                        <p>This is an item on your menu. Briefly describe it</p>
+                        <span></span>
+                        <p class="font-thin">£9</p>
+                    </div>
                 </div>
 
                 </div>

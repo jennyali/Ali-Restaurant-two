@@ -1,0 +1,29 @@
+/*===========================
+
+            MIXINS
+
+=============================*/ 
+
+// media queries
+
+@mixin mediaQ--min($bp){
+    @media (min-width: $bp) {
+        @content
+    }
+};
+
+@mixin mediaQ--max($bp){
+    @media (max-width: $bp) {
+        @content
+    }
+};
+
+// placeholder background
+
+@mixin placeholder-bg() {
+    background-image: url(/php-websites/ali-restaurant-two/public/images/default-placeholder.png);
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @content;
+}
