@@ -17,15 +17,17 @@ hr {
     border: 3px solid $secondary-dark-color;
 }
 
-// FONT GLOBAL STYLING //
+// == FONT GLOBAL STYLING == //
 
 h1 {
-    font-size: $font-size-md;
+    font-family: $font-family-heading;
+    font-size: $font-size-xlg;
     text-transform: uppercase;
     letter-spacing: 1px;
+    color: $primary-dark-color;
 
     @include mediaQ--min($bp-sm) {
-        font-size: $font-size-lg;
+        //font-size: $font-size-lg;
     }
 }
 
@@ -62,7 +64,7 @@ h6 {
     font-size: $font-size-lg;
 }
 
-h1, h2, h5, {
+h2, h5, {
     font-family: $font-family-heading;
     color: $light;
 }
@@ -148,3 +150,4 @@ h2.font-2 {
         font-size: $font-size-md;
     }
 }
+//----------------------------------------

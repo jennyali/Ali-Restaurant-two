@@ -11,7 +11,7 @@
 
     <section class="container-fluid text-center welcome-section">
         <div class="row">
-            <div class="jumbotron">
+            <div class="jumbotron container">
                 <h3><span class="font-family--heading">Taste of the East</span></h3>
                 <h6>San Francisco's Most Acclaimed Asian Restaurant</h6>
             </div>
@@ -22,24 +22,33 @@
         <div class="container">
             <div class="row">
                 <div class="col-sm-4 text-center menu-section__category">
-                    <hr>
-                    <h5>Soups</h5>
-                    <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-                    <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                    <div class="inner-box">
+                        <div class="outer-box"></div>
+                        <hr>
+                        <h5>Soups</h5>
+                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                    </div>
                 </div>
 
                 <div class="col-sm-4 text-center menu-section__category">
-                    <hr>
-                    <h5>Soups</h5>
-                    <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-                    <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                    <div class="inner-box">
+                        <div class="outer-box"></div>
+                        <hr>
+                        <h5>Soups</h5>
+                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                    </div>
                 </div>
 
                 <div class="col-sm-4 text-center menu-section__category">
-                    <hr>
-                    <h5>Soups</h5>
-                    <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-                    <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                    <div class="inner-box">
+                        <div class="outer-box"></div>
+                        <hr>
+                        <h5>Soups</h5>
+                        <p>I'm a paragraph. Click here to add your own text and edit me.</p>
+                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                    </div>
                 </div>
 
                 <div class="col-sm-12 text-center">

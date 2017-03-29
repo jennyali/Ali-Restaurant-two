@@ -82,7 +82,7 @@ $mp-triple: 60px;
 
 $breakpoints: (
     xs: 420px,
-    sm: 767px,
+    sm: 768px,
     md: 992px,
     lg: 1200px,
 );
@@ -103,3 +103,22 @@ $bp-lg: map-get($map: $breakpoints, $key: lg);
 // home section heights
 
 $home-section-height: 700px;
+
+//-------------------------
+
+// Header config
+
+$header-height-sm-screen: 200px;
+$header-height-md-screen: 70px;
+$logo-img-width: 100px;
+
+//-------------------------
+
+// Top Nav config
+
+$nav-wrapper-height: 160px;
+$nav-dropdown-btn-padding: 8px 12px 0px 12px;
+$nav-dropdown-width: 300px;
+
+$on-top: 9999;
+
