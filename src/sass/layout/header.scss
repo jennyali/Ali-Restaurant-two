@@ -17,7 +17,7 @@ header {
     figure {
         position: absolute;
         background: $secondary-color;
-        padding: $mp-sm;
+        padding: $mp-sm $mp-default;
     }
 
     img {
@@ -25,6 +25,7 @@ header {
     }
 
     h1 {
-        margin: $mp-sm;
+        color: $primary-dark-color;
+        margin: 0;
     }
 }

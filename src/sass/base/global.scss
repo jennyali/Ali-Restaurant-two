@@ -32,7 +32,7 @@ h1 {
 }
 
 h2 {
-    font-size: $font-size-xlg;
+    font-size: $font-size-xxlg;
 
     @include mediaQ--min($bp-sm) {
         font-size: $font-size-xxlg;
@@ -41,8 +41,9 @@ h2 {
 
 h3 {
     font-family: $font-family-paragraph;
-    font-size: $font-size-xxlg;
+    font-size: 36px;
     letter-spacing: 1px;
+    line-height: 1.3;
 
     @include mediaQ--min($bp-sm) {
         font-size: $font-size-huge;
@@ -73,6 +74,7 @@ p {
     font-family: $font-family-paragraph;
     font-size: $font-size-sm;
     margin: 0;
+    line-height: 26px;
 
     &.font-family--heading {
         font-size: $font-size-base;
@@ -93,16 +95,18 @@ h5+p {
     margin-top: $mp-default;
 
     @include mediaQ--min($bp-md) {
-        font-size: $font-size-base;
+        font-size: $font-size-sm;
     }
 }
 
 h2+p{
-    line-height: $font-size-xlg;
+    line-height: 26px;
     font-size: $font-size-sm;
 
     @include mediaQ--min($bp-sm) {
         margin-top: $mp-double;
+        line-height: 22px;
+        font-size: 13px;
     }
 }
     

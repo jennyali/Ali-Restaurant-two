@@ -1,4 +1,13 @@
 footer {
     background-color: $primary-dark-color;
-    padding: $mp-triple 0;
+    padding: $mp-double;
+
+    img {
+        width: 100px;
+    }
+
+}
+
+.footer-text {
+    margin: $mp-lg 0;
 }
