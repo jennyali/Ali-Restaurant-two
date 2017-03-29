@@ -2,7 +2,7 @@
     <div class="container">
         <div class="col-xs-6 col-sm-3 col-md-2 logo-wrapper">
             <figure class="text-center">
-                <img class="about-link" src="../public/images/default-placeholder.png">
+                <img class="about-link" src="../public/images/chef-logo.png">
                 <h1>
                     Ditalini
                 </h1>

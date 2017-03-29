@@ -4,30 +4,30 @@
     <div class="container">
         <div class="row">
             <div class="col-sm-4">
-                <img style="max-width:180px" src="../public/images/default-placeholder.png">
+                <img src="../public/images/chef-logo-white.png">
             </div>
 
             <div class="col-sm-8 row">
                 
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 footer-text">
                     <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>
                 </div>
 
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 footer-text">
                     <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>
                 </div>
 
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 footer-text">
                     <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>
                 </div>
 
-                <div class="col-sm-6 col-lg-3">
+                <div class="col-sm-6 col-lg-3 footer-text">
                     <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>

@@ -12,7 +12,7 @@
     <section class="container-fluid text-center welcome-section">
         <div class="row">
             <div class="jumbotron container">
-                <h3><span class="font-family--heading">Taste of the East</span></h3>
+                <h3><span class="font-family--heading">A Little Taste of Italy</span></h3>
                 <h6>San Francisco's Most Acclaimed Asian Restaurant</h6>
             </div>
         </div>
@@ -27,7 +27,7 @@
                         <hr>
                         <h5>Soups</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                        <img src="../public/images/pasta-icon.png">
                     </div>
                 </div>
 
@@ -37,7 +37,7 @@
                         <hr>
                         <h5>Soups</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                        <img src="../public/images/pizza-icon.png">
                     </div>
                 </div>
 
@@ -47,7 +47,7 @@
                         <hr>
                         <h5>Soups</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
-                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
+                        <img src="../public/images/panini-icon.png">
                     </div>
                 </div>
 
@@ -61,8 +61,8 @@
     <section id="home-about-section" class="row about-section">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-sm-offset-6">
-                    <hr>
+                <div class="col-xs-12 col-sm-6 col-md-5">
+                    <hr class="pull-right">
                     <h2>Our Story Begins In The East</h2>
                     <p>
                         I'm a paragraph. Click here to add your own text and edit me. 
@@ -79,12 +79,12 @@
         </div>
     </section>
 
-    <section class="row quote-section">
+    <section class="row quote-section text-right">
         <div class="container">
             <div class="row">
-                <div class="col-xs-9 col-sm-8 col-md-6">
-                    <hr>
-                    <div class="jumbotron">
+                <div class="col-xs-9 col-sm-8 col-md-6 col-md-offset-6">
+                    <hr class="pull-right">
+                    <div class="quote-section__text">
                         <h3>"When you drink the water, <span class="font-family--heading">remember the spring"</span></h3>
                     </div>
 
