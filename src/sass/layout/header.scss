@@ -1,4 +1,13 @@
 
 header {
     background-color: $primary-dark-color;
+    height: 200px;
+    
+    @include mediaQ--min($bp-md) {
+        height: 70px;
+    }
+
+    figure {
+        position: absolute;
+    }
 }

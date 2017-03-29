@@ -12,8 +12,8 @@
     <section class="container-fluid text-center welcome-section">
         <div class="row">
             <div class="jumbotron">
-                <h1>Taste of the East</h1>
-                <h3>San Francisco's Most Acclaimed Asian Restaurant</h3>
+                <h3><span class="font-family--heading">Taste of the East</span></h3>
+                <h6>San Francisco's Most Acclaimed Asian Restaurant</h6>
             </div>
         </div>
     </section>
@@ -23,21 +23,21 @@
             <div class="row">
                 <div class="col-sm-4 text-center menu-section__category">
                     <hr>
-                    <h3>Soups</h3>
+                    <h5>Soups</h5>
                     <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                     <img style="max-width:200px" src="../public/images/default-placeholder.png">
                 </div>
 
                 <div class="col-sm-4 text-center menu-section__category">
                     <hr>
-                    <h3>Soups</h3>
+                    <h5>Soups</h5>
                     <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                     <img style="max-width:200px" src="../public/images/default-placeholder.png">
                 </div>
 
                 <div class="col-sm-4 text-center menu-section__category">
                     <hr>
-                    <h3>Soups</h3>
+                    <h5>Soups</h5>
                     <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                     <img style="max-width:200px" src="../public/images/default-placeholder.png">
                 </div>
@@ -54,7 +54,7 @@
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-sm-offset-6">
                     <hr>
-                    <h3>Our Story Begins In The East</h3>
+                    <h2>Our Story Begins In The East</h2>
                     <p>
                         I'm a paragraph. Click here to add your own text and edit me. 
                         It’s easy. Just click “Edit Text” or double click me to add your 
@@ -76,7 +76,7 @@
                 <div class="col-xs-9 col-sm-8 col-md-6">
                     <hr>
                     <div class="jumbotron">
-                        <h1>"When you drink the water, <strong>remember the spring"</strong></h1>
+                        <h3>"When you drink the water, <span class="font-family--heading">remember the spring"</span></h3>
                     </div>
 
                     <p>

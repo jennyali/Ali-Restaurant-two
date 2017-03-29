@@ -1,9 +1,4 @@
 
-.home-page {
-    h1, h2, h3, h4, h5, h6, p, li, a {
-        color: $light;
-    }
-}
 
 .welcome-section {
     height: $home-section-height;
@@ -38,6 +33,10 @@
 .menu-section {
     background: rgba($secondary-color, 0.9);
     padding: ($mp-double + $mp-default) 0;
+
+    button {
+        margin: $mp-double 0;
+    }
 }
 
 .menu-section__category {

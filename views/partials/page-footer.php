@@ -10,25 +10,25 @@
             <div class="col-sm-8 row">
                 
                 <div class="col-sm-6 col-lg-3">
-                    <h6>ADDRESS</h6>
+                    <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>
                 </div>
 
                 <div class="col-sm-6 col-lg-3">
-                    <h6>ADDRESS</h6>
+                    <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>
                 </div>
 
                 <div class="col-sm-6 col-lg-3">
-                    <h6>ADDRESS</h6>
+                    <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>
                 </div>
 
                 <div class="col-sm-6 col-lg-3">
-                    <h6>ADDRESS</h6>
+                    <p class="font-family--heading">ADDRESS</p>
                     <p>500 Terry Francois Street</p>
                     <p>San Francisco, CA 94158</p>
                 </div>

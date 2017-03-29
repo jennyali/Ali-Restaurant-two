@@ -5,12 +5,12 @@
 
 <!-- ORDER ONLINE PAGE -->
 
-<main class="container">
+<main class="container alt-theme">
 
     <section class="row">
 
         <div class="col-sm-12">
-            <h2>Order Online</h2>
+            <h2 class="font-2">Order Online</h2>
         </div>
     
     </section>
@@ -33,7 +33,7 @@
 
         <div class="col-sm-7">
             <div class="text-center">
-                <h4>Lunch Menu</h4>
+                <h5>Lunch Menu</h5>
                 <p>
                     Get people excited about your menu and your food. Briefly describe it
                 </p>
@@ -41,7 +41,7 @@
             </div>
             
             <div class="text-center">
-                <h3>Soups</h3>
+                <h5>Soups</h5>
                 <p>
                     This is a section of your menu. Briefly describe it
                 </p>
@@ -54,8 +54,8 @@
 
                         <img style="max-width:200px" src="../public/images/default-placeholder.png">
 
-                        <h5>Chicken Noodle Soup</h5>
-                        <p>£9</p>
+                        <p class="lead">Chicken Noodle Soup</p>
+                        <p class="font-thin">£9</p>
                         <p>This is a section of your menu. Briefly describe it</p>
 
                         <button class="icon-add-1"></button>
@@ -65,8 +65,8 @@
 
                         <img style="max-width:200px" src="../public/images/default-placeholder.png">
 
-                        <h5>Chicken Noodle Soup</h5>
-                        <p>£9</p>
+                        <p class="lead">Chicken Noodle Soup</p>
+                        <p class="font-thin">£9</p>
                         <p>This is a section of your menu. Briefly describe it</p>
 
                         <button class="icon-add-1"></button>
@@ -76,8 +76,8 @@
 
                         <img style="max-width:200px" src="../public/images/default-placeholder.png">
 
-                        <h5>Chicken Noodle Soup</h5>
-                        <p>£9</p>
+                        <p class="lead">Chicken Noodle Soup</p>
+                        <p class="font-thin">£9</p>
                         <p>This is a section of your menu. Briefly describe it</p>
 
                         <button class="icon-add-1"></button>
@@ -87,8 +87,8 @@
 
                         <img style="max-width:200px" src="../public/images/default-placeholder.png">
 
-                        <h5>Chicken Noodle Soup</h5>
-                        <p>£9</p>
+                        <p class="lead">Chicken Noodle Soup</p>
+                        <p class="font-thin">£9</p>
                         <p>This is a section of your menu. Briefly describe it</p>
 
                         <button class="icon-add-1"></button>

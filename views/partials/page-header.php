@@ -3,9 +3,9 @@
         <div class="col-xs-6 col-sm-4 col-md-3">
             <figure class="text-center">
                 <img class="about-link" style="max-width: 180px" src="../public/images/default-placeholder.png">
-                <h4>
+                <h1>
                     Ditalini
-                </h4>
+                </h1>
             </figure>
         </div>
 
@@ -35,7 +35,7 @@
                     </ul>
                 </nav>
                 <div class="col-sm-6 col-md-4">
-                    <p>Reservations <span class="hidden-xs">123-456-7890</span></p>
+                    <p class="font-family--heading">Reservations <span class="hidden-xs">123-456-7890</span></p>
                     <p class="visible-xs">123-456-7890</p>
                 </div>
             </div>
