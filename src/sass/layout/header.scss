@@ -1,13 +1,30 @@
 
 header {
     background-color: $primary-dark-color;
-    height: 200px;
+    height: $header-height-sm-screen;
+
+    padding: $mp-lg;
     
     @include mediaQ--min($bp-md) {
-        height: 70px;
+        height: $header-height-md-screen;
     }
+
+}
+
+.logo-wrapper {
+    padding: 0;
 
     figure {
         position: absolute;
+        background: $secondary-color;
+        padding: $mp-sm;
+    }
+
+    img {
+        width: $logo-img-width;
+    }
+
+    h1 {
+        margin: $mp-sm;
     }
 }

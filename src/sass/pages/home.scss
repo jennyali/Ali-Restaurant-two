@@ -2,8 +2,11 @@
 
 .welcome-section {
     height: $home-section-height;
-
     background: rgba($primary-dark-color, 0.3);
+
+    @include mediaQ--min($bp-md) {
+        padding-top: 140px;
+    }
 }
 
 .about-section {
@@ -40,5 +43,28 @@
 }
 
 .menu-section__category {
-    background: $primary-color;
+    
+
+    .inner-box {
+        background: $primary-color;
+        margin: 0 30px;
+        padding: 30px 40px;
+        position: relative;
+        
+    }
+
+    .outer-box {
+        height: 385px;
+        position: absolute;
+        width: 330px;
+        background: $primary-color;
+        top: 15px;
+        left: -15px;
+        z-index: 1;
+    }
+
+    hr, h5, p, img {
+        position: relative;
+        z-index: 4;
+    }
 }
