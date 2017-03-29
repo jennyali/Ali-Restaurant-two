@@ -8,8 +8,143 @@
 
 .jumbotron {
     background: none;
-    color: $light;
+    //color: $light;
 
 }
 
+hr {
+    width: 50px;
+    border: 3px solid $secondary-dark-color;
+}
 
+// FONT GLOBAL STYLING //
+
+h1 {
+    font-size: $font-size-md;
+    text-transform: uppercase;
+    letter-spacing: 1px;
+
+    @include mediaQ--min($bp-sm) {
+        font-size: $font-size-lg;
+    }
+}
+
+h2 {
+    font-size: $font-size-xlg;
+
+    @include mediaQ--min($bp-sm) {
+        font-size: $font-size-xxlg;
+    }
+}
+
+h3 {
+    font-family: $font-family-paragraph;
+    font-size: $font-size-xxlg;
+    letter-spacing: 1px;
+
+    @include mediaQ--min($bp-sm) {
+        font-size: $font-size-huge;
+    }
+}
+
+h4 {
+    font-family: $font-family-paragraph;
+}
+
+h5 {
+    font-size: $font-size-xlg;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+h6 {
+    font-family: $font-family-paragraph;
+    font-size: $font-size-lg;
+}
+
+h1, h2, h5, {
+    font-family: $font-family-heading;
+    color: $light;
+}
+
+p {
+    font-family: $font-family-paragraph;
+    font-size: $font-size-sm;
+    margin: 0;
+
+    &.font-family--heading {
+        font-size: $font-size-base;
+        letter-spacing: 1px;
+        line-height: 2.5;
+    }
+}
+
+h1, h2, h3, h4, h5, h6, p {
+    color: $light;
+}
+
+h3+h6 {
+    line-height: $font-size-xlg;
+}
+
+h5+p {
+    margin-top: $mp-default;
+
+    @include mediaQ--min($bp-md) {
+        font-size: $font-size-base;
+    }
+}
+
+h2+p{
+    line-height: $font-size-xlg;
+    font-size: $font-size-sm;
+
+    @include mediaQ--min($bp-sm) {
+        margin-top: $mp-double;
+    }
+}
+    
+.font-family--heading {
+    font-family: $font-family-heading;
+}
+
+.font-family--paragraph {
+    font-family: $font-family-paragraph;
+}
+
+
+h2.font-2 {
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    font-size: $font-size-xxlg;
+
+    @include mediaQ--min($bp-sm) {
+        font-size: $font-size-xxxlg;
+    }
+}
+
+.alt-theme {
+
+    h1, h3, h4, h5, h6,  {
+        color: $primary-dark-color;
+    }
+
+    p {
+        font-family: $font-family-heading;
+        color: $secondary-dark-color;
+    }
+
+    p.lead {
+        font-size: $font-size-md;
+        margin: 0;
+    }
+
+    .font-family--paragraph {
+        font-family: $font-family-paragraph;
+    }
+
+    .font-thin {
+        color: $primary-color;
+        font-size: $font-size-md;
+    }
+}
