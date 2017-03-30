@@ -3514,6 +3514,7 @@ var _ = __webpack_require__(301);
 $(document).ready(function () {
 
     __webpack_require__(116);
+    //require('./background-change.js');
 });
 
 /***/ }),
@@ -3524,7 +3525,6 @@ $(document).ready(function () {
 
 
 // Top Site Navigation Scroll To Div Events //
-
 
 // code snippet to grab a value from a query string URL
 //--------------------------------------------------
@@ -3541,6 +3541,7 @@ if (q != undefined) {
     }
 }
 //---------------------------------------------------
+
 
 /*===========================
             VIEW
@@ -3560,7 +3561,7 @@ var $pageFooter = $('#page-footer');
 function scrollTo(selector) {
     // scroll up effect
     $('body').animate({
-        scrollTop: selector.offset().top - 145
+        scrollTop: selector.offset().top - 0
     }, 1000);
 };
 

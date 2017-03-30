@@ -10,6 +10,10 @@ var _ = require('lodash');
 
 $(document).ready(function(){
 
+
+
+
     require('./nav-scrolls.js');
+    //require('./background-change.js');
 
 });

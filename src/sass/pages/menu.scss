@@ -1,4 +1,58 @@
 
+#menu-page {
+    padding: 0 $mp-lg;
+
+    @include mediaQ--min($bp-sm) {
+        padding: 0;
+    }
+
+
+    h2.font-2 {
+        border-bottom: 1px solid $secondary-color;
+        padding: $mp-default 0;
+        margin: $mp-lg 0;
+        font-size: 45px;
+    }
+
+    .panel {
+        border-radius: 0;
+        background-color: $secondary-color;
+        margin-bottom: 0;
+        border: none;
+
+        @include mediaQ--min($bp-sm) {
+            padding: 20px;
+        }
+    }
+
+    .jumbotron {
+        margin-bottom: 0;
+        padding: 45px 15px;
+    }
+}
+
+.menu-title {
+    border-top: 2px solid $secondary-dark-color;
+    border-bottom: 2px solid $secondary-dark-color;
+    padding: 30px 0;
+}
+
+.menu-item {
+    padding: 15px 0;
+
+    @include mediaQ--max($bp-sm) {
+        border-bottom: 1px dotted $secondary-dark-color;
+        padding: 30px 0;
+    }
+}
+
+
+
+.menu-item:last-child {
+    @include mediaQ--max($bp-sm) {
+        border-bottom: 1px dotted transparent;
+    }
+}
 
 .menu-item__inner-text {
 
@@ -9,11 +63,11 @@
 
         span {
             @include mediaQ--min($bp-sm) {
-                border-bottom: 1px dotted black;
-                width: 60%;
+                border-bottom: 1px dotted $primary-color;
+                width: 50%;
 
                 @include mediaQ--min($bp-md) {
-                    width: 70%;
+                    width: 60%;
             }
         }
     }

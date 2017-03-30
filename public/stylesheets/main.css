@@ -5083,8 +5083,10 @@ button.close {
   background: none; }
 
 hr {
-  width: 50px;
-  border: 3px solid #B28C5B; }
+  border-top: 1px solid transparent; }
+  hr.small-line {
+    width: 50px;
+    border: 3px solid #B28C5B; }
 
 h1 {
   font-family: "Bree Serif", serif;
@@ -5126,9 +5128,9 @@ h2, h5 {
 
 p {
   font-family: "Open Sans", sans-serif;
-  font-size: 14px;
+  font-size: 13px;
   margin: 0;
-  line-height: 26px; }
+  line-height: 24px; }
   p.font-family--heading {
     font-size: 16px;
     letter-spacing: 1px;
@@ -5262,16 +5264,15 @@ h2.font-2 {
     padding: 0; } }
 
 body {
-  background-color: #821E0F;
-  background-image: url(/php-websites/ali-restaurant-two/public/images/food-banner.jpg);
-  background-repeat: no-repeat;
-  background-position: top; }
-  @media (min-width: 768px) {
-    body {
-      background-attachment: fixed;
-      background-position: center;
-      background-repeat: no-repeat;
-      background-size: cover; } }
+  background-color: #821E0F; }
+
+.menu-body {
+  background: none;
+  background-color: #821E0F; }
+
+.menu-order {
+  background: none;
+  background-color: #821E0F; }
 
 header {
   background-color: #54130a;
@@ -5296,15 +5297,57 @@ header {
 footer {
   background-color: #54130a;
   padding: 30px; }
+  @media (min-width: 1200px) {
+    footer {
+      padding: 60px; } }
   footer img {
     width: 100px; }
+  footer ul {
+    color: #FFFFFF; }
+
+@media (min-width: 768px) {
+  .page-footer__logo-column {
+    border-right: 1px solid #FFFFFF; } }
+
+@media (min-width: 768px) {
+  .page-footer__text-columns {
+    padding-left: 30px; } }
 
 .footer-text {
   margin: 20px 0; }
+  @media (min-width: 768px) {
+    .footer-text {
+      margin: 0 0 15px 0; } }
+
+.list-inline {
+  margin: 10px 0 60px 0;
+  color: #FFFFFF;
+  font-size: 32px; }
+  @media (min-width: 768px) {
+    .list-inline {
+      font-size: 20px;
+      margin: 0 0 15px 0; } }
+  .list-inline li:first-child {
+    padding-left: 0; }
+
+.home-page {
+  background-color: #821E0F;
+  background-image: url(/php-websites/ali-restaurant-two/public/images/food-banner.jpg);
+  background-repeat: no-repeat;
+  background-position: top; }
+  @media (min-width: 768px) {
+    .home-page {
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover; } }
 
 .welcome-section {
-  height: 700px;
-  background: rgba(84, 19, 10, 0.3); }
+  height: 480px;
+  background: rgba(0, 0, 0, 0.5); }
+  @media (min-width: 768px) {
+    .welcome-section {
+      height: 700px; } }
   @media (min-width: 992px) {
     .welcome-section {
       padding-top: 140px; } }
@@ -5345,9 +5388,13 @@ footer {
   margin: 60px 0; }
 
 .menu-section {
-  background: rgba(237, 219, 196, 0.9); }
+  background: #EDDBC4;
+  padding: 15px 0; }
+  @media (min-width: 768px) {
+    .menu-section {
+      background: rgba(237, 219, 196, 0.9); } }
   .menu-section button {
-    margin: 30px 0; }
+    margin: 45px 0 30px 0; }
 
 .menu-section__category {
   margin-top: 30px; }
@@ -5402,6 +5449,44 @@ footer {
     height: auto;
     margin: 15px 0; }
 
+#menu-page {
+  padding: 0 20px; }
+  @media (min-width: 768px) {
+    #menu-page {
+      padding: 0; } }
+  #menu-page h2.font-2 {
+    border-bottom: 1px solid #EDDBC4;
+    padding: 15px 0;
+    margin: 20px 0;
+    font-size: 45px; }
+  #menu-page .panel {
+    border-radius: 0;
+    background-color: #EDDBC4;
+    margin-bottom: 0;
+    border: none; }
+    @media (min-width: 768px) {
+      #menu-page .panel {
+        padding: 20px; } }
+  #menu-page .jumbotron {
+    margin-bottom: 0;
+    padding: 45px 15px; }
+
+.menu-title {
+  border-top: 2px solid #B28C5B;
+  border-bottom: 2px solid #B28C5B;
+  padding: 30px 0; }
+
+.menu-item {
+  padding: 15px 0; }
+  @media (max-width: 768px) {
+    .menu-item {
+      border-bottom: 1px dotted #B28C5B;
+      padding: 30px 0; } }
+
+@media (max-width: 768px) {
+  .menu-item:last-child {
+    border-bottom: 1px dotted transparent; } }
+
 @media (min-width: 768px) {
   .menu-item__inner-text {
     display: -webkit-box;
@@ -5413,10 +5498,48 @@ footer {
 
 @media (min-width: 768px) {
   .menu-item__inner-text span {
-    border-bottom: 1px dotted black;
-    width: 60%; } }
+    border-bottom: 1px dotted #821E0F;
+    width: 50%; } }
   @media (min-width: 768px) and (min-width: 992px) {
     .menu-item__inner-text span {
-      width: 70%; } }
+      width: 60%; } }
+
+h2.font-2 {
+  border-bottom: 1px solid #EDDBC4;
+  padding: 15px 0;
+  margin: 20px 0;
+  font-size: 45px; }
+
+.well {
+  border-radius: 0;
+  background-color: #EDDBC4;
+  margin-bottom: 0;
+  border: none; }
+  @media (min-width: 768px) {
+    .well {
+      padding: 0px; } }
+
+.order-form__left-column {
+  padding: 0; }
+  .order-form__left-column p {
+    border-bottom: 1px solid #B28C5B;
+    padding: 15px; }
+  .order-form__left-column li:first-child {
+    border-bottom: 1px solid #B28C5B; }
+  .order-form__left-column li {
+    padding: 15px; }
+
+.order-form__center-column {
+  border-left: 1px solid #B28C5B;
+  border-right: 1px solid #B28C5B;
+  padding: 30px; }
+
+.center-column__food-option {
+  margin: 15px 0; }
+  .center-column__food-option figure {
+    background-color: #B28C5B; }
+
+.center-column__food-option__inner-box {
+  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); }
 
 /*# sourceMappingURL=main.css.map*/

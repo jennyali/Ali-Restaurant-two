@@ -2,12 +2,53 @@ footer {
     background-color: $primary-dark-color;
     padding: $mp-double;
 
+    @include mediaQ--min($bp-lg) {
+        padding: $mp-triple;
+    }
+
     img {
         width: 100px;
     }
 
+    ul {
+        color: $light;
+    }
+
+}
+
+.page-footer__logo-column {
+
+    @include mediaQ--min($bp-sm) {
+        border-right: 1px solid $light;
+    }
+}
+
+.page-footer__text-columns {
+
+    @include mediaQ--min($bp-sm) {
+        padding-left: $mp-double;
+    }
 }
 
 .footer-text {
     margin: $mp-lg 0;
+
+    @include mediaQ--min($bp-sm) {
+        margin: 0 0 $mp-default 0;
+    }
+}
+
+.list-inline {
+    margin: $mp-sm 0 $mp-triple 0;
+    color: $light;
+    font-size: $font-size-xxlg;
+
+        @include mediaQ--min($bp-sm) {
+            font-size: $font-size-lg;
+            margin: 0 0 $mp-default 0;
+        }
+
+    li:first-child {
+        padding-left: 0;
+    }
 }

@@ -29,8 +29,8 @@
                     <ul class="nav navbar-nav">
                         <li><a href="index.php">Home</a></li>
                         <li><a href="index.php?scrollto=about">About</a></li>
-                        <li><a href="menu.php">Menu</a></li>
-                        <li><a href="order.php">Order Online</a></li>
+                        <li><a href="menu.php?page=menu">Menu</a></li>
+                        <li><a href="order.php?page=order">Order Online</a></li>
                         <li><a href="index.php?scrollto=contact">Contact</a></li>
                     </ul>
                 </nav>

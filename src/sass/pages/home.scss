@@ -1,8 +1,28 @@
+.home-page {
+    background-color: $primary-color;
+    background-image: url(/php-websites/ali-restaurant-two/public/images/food-banner.jpg);
+    background-repeat: no-repeat;
+    background-position: top;
 
+    //background-size: 200%;
+    //background-position-y: 200px;
+
+    @include mediaQ--min($bp-sm) {
+        background-attachment: fixed;
+        background-position: center;
+        background-repeat: no-repeat;
+        background-size: cover;
+    }
+
+}
 
 .welcome-section {
-    height: $home-section-height;
-    background: rgba($primary-dark-color, 0.3);
+    height: 480px;
+    background: rgba($dark, 0.5);
+
+    @include mediaQ--min($bp-sm) {
+        height: 700px;
+    }
 
     @include mediaQ--min($bp-md) {
         padding-top: 140px;
@@ -53,10 +73,15 @@
 }
 
 .menu-section {
-    background: rgba($secondary-color, 0.9);
+    background: $secondary-color;
+    padding: $mp-default 0;
+
+    @include mediaQ--min($bp-sm) {
+        background: rgba($secondary-color, 0.9);
+    }
 
     button {
-        margin: $mp-double 0;
+        margin: 45px 0 30px 0;
     }
 }
 
