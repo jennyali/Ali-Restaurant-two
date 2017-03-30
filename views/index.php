@@ -13,7 +13,7 @@
         <div class="row">
             <div class="jumbotron container">
                 <h3><span class="font-family--heading">A Little Taste of Italy</span></h3>
-                <h6>San Francisco's Most Acclaimed Asian Restaurant</h6>
+                <h6>Italy's' Most Acclaimed Italian Restaurant</h6>
             </div>
         </div>
     </section>
@@ -25,7 +25,7 @@
                     <div class="inner-box">
                         <div class="outer-box"></div>
                         <hr class="small-line">
-                        <h5>Soups</h5>
+                        <h5>Pasta</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                         <img src="../public/images/pasta-icon.png">
                     </div>
@@ -35,7 +35,7 @@
                     <div class="inner-box">
                         <div class="outer-box"></div>
                         <hr class="small-line">
-                        <h5>Soups</h5>
+                        <h5>Pizza</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                         <img src="../public/images/pizza-icon.png">
                     </div>
@@ -45,7 +45,7 @@
                     <div class="inner-box">
                         <div class="outer-box"></div>
                         <hr class="small-line">
-                        <h5>Soups</h5>
+                        <h5>Panini's</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                         <img src="../public/images/panini-icon.png">
                     </div>
@@ -61,8 +61,8 @@
     <section id="home-about-section" class="row about-section">
         <div class="container">
             <div class="row">
-                <div class="col-xs-12 col-sm-6 col-md-5">
-                    <hr class="pull-right small-line">
+                <div class="col-xs-12 col-sm-6 col-md-5 about-section__text-block">
+                    <hr class="pull-left small-line">
                     <h2>Our Story Begins In The East</h2>
                     <p>
                         I'm a paragraph. Click here to add your own text and edit me. 
@@ -79,13 +79,16 @@
         </div>
     </section>
 
-    <section class="row quote-section text-right">
+    <section class="row quote-section">
         <div class="container">
             <div class="row">
-                <div class="col-xs-9 col-sm-8 col-md-6 col-md-offset-6">
-                    <hr class="pull-right small-line">
+                <div class="quote-section__img-wrapper">
+                    <img src="../public/images/eating-pizza.jpg">
+                </div>
+                <div class="col-xs-10 col-sm-10 col-sm-offset-2 col-md-7 col-md-offset-5">
                     <div class="quote-section__text">
-                        <h3>"When you drink the water, <span class="font-family--heading">remember the spring"</span></h3>
+                         <hr class="small-line">
+                        <h3 class="smaller">"When you drink the water, <span class="font-family--heading">remember the spring"</span></h3>
                     </div>
 
                     <p>
