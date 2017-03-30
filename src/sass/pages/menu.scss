@@ -64,10 +64,10 @@
         span {
             @include mediaQ--min($bp-sm) {
                 border-bottom: 1px dotted $primary-color;
-                width: 50%;
+                width: 40%;
 
                 @include mediaQ--min($bp-md) {
-                    width: 60%;
+                    width: 50%;
             }
         }
     }

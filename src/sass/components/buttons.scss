@@ -15,3 +15,20 @@
         background-color: $secondary-dark-color;
     }
 }
+
+.btn-primary--sm {
+    padding: 5px 10px;
+    font-size: 14px;
+    border-radius: 10px;
+    font-family: $font-family-paragraph;
+    background-color: $secondary-dark-color;
+
+    &:hover, :focus {
+        background-color: $primary-dark-color;
+    }
+
+    @include mediaQ--max($bp-sm) {
+        float: right;
+    }
+
+}
