@@ -5136,6 +5136,18 @@ p {
     letter-spacing: 1px;
     line-height: 2.5; }
 
+th {
+  font-family: "Bree Serif", serif;
+  font-size: 18px;
+  text-transform: uppercase;
+  color: #B28C5B;
+  letter-spacing: 1px; }
+
+td {
+  font-family: "Open Sans", sans-serif;
+  font-size: 16px;
+  color: #54130a; }
+
 h1, h2, h3, h4, h5, h6, p {
   color: #FFFFFF; }
 
@@ -5201,6 +5213,18 @@ h2.font-2 {
   padding: 10px 30px; }
   .btn-primary:hover, .btn-primary :focus {
     background-color: #B28C5B; }
+
+.btn-primary--sm {
+  padding: 5px 10px;
+  font-size: 14px;
+  border-radius: 10px;
+  font-family: "Open Sans", sans-serif;
+  background-color: #B28C5B; }
+  .btn-primary--sm:hover, .btn-primary--sm :focus {
+    background-color: #54130a; }
+  @media (max-width: 768px) {
+    .btn-primary--sm {
+      float: right; } }
 
 .navbar-default {
   background: none;
@@ -5499,10 +5523,10 @@ footer {
 @media (min-width: 768px) {
   .menu-item__inner-text span {
     border-bottom: 1px dotted #821E0F;
-    width: 50%; } }
+    width: 40%; } }
   @media (min-width: 768px) and (min-width: 992px) {
     .menu-item__inner-text span {
-      width: 60%; } }
+      width: 50%; } }
 
 h2.font-2 {
   border-bottom: 1px solid #EDDBC4;
@@ -5514,32 +5538,26 @@ h2.font-2 {
   border-radius: 0;
   background-color: #EDDBC4;
   margin-bottom: 0;
-  border: none; }
+  border: none;
+  min-height: 500px; }
   @media (min-width: 768px) {
     .well {
-      padding: 0px; } }
+      padding: 30px 15px; } }
 
-.order-form__left-column {
-  padding: 0; }
-  .order-form__left-column p {
-    border-bottom: 1px solid #B28C5B;
-    padding: 15px; }
-  .order-form__left-column li:first-child {
-    border-bottom: 1px solid #B28C5B; }
-  .order-form__left-column li {
-    padding: 15px; }
+.order-form__right-column {
+  min-height: 200px; }
+  .order-form__right-column h5 {
+    color: #B28C5B; }
+  .order-form__right-column p {
+    text-align: right; }
+    @media (min-width: 992px) {
+      .order-form__right-column p {
+        padding-right: 40px; } }
 
-.order-form__center-column {
-  border-left: 1px solid #B28C5B;
-  border-right: 1px solid #B28C5B;
-  padding: 30px; }
+.order-form__left-column img {
+  width: 100px; }
 
-.center-column__food-option {
-  margin: 15px 0; }
-  .center-column__food-option figure {
-    background-color: #B28C5B; }
-
-.center-column__food-option__inner-box {
-  box-shadow: 0px 1px 4px -1px rgba(0, 0, 0, 0.75); }
+.table-row-heading {
+  border-bottom: 2px solid #54130a; }
 
 /*# sourceMappingURL=main.css.map*/

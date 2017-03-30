@@ -87,6 +87,20 @@ p {
     }
 }
 
+th {
+    font-family: $font-family-heading;
+    font-size: $font-size-md;
+    text-transform: uppercase;
+    color: $secondary-dark-color;
+    letter-spacing: 1px;
+}
+
+td {
+    font-family: $font-family-paragraph;
+    font-size: $font-size-base;
+    color: $primary-dark-color;
+}
+
 h1, h2, h3, h4, h5, h6, p {
     color: $light;
 }

@@ -42,6 +42,7 @@
                         <p>This is an item on your menu. Briefly describe it</p>
                         <span></span>
                         <p class="font-thin">£9</p>
+                        <button class="btn btn-primary btn-primary--sm">Order</button>
                     </div>
                 </div>
 
