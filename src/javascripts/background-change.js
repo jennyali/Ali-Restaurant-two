@@ -1,6 +1,4 @@
 
-// Top Site Navigation Scroll To Div Events //
-
 // code snippet to grab a value from a query string URL
 //--------------------------------------------------
 
@@ -20,11 +18,9 @@ if(q != undefined){
 /*===========================
             VIEW
 =============================*/
+//--- Functions ---
+//var $siteBody = $('#site-body');
 
-//-- Selectors --
-
-var $homeAboutSection = $('#home-about-section');
-var $pageFooter = $('#page-footer');
 
 /*===========================
         CONTROLLER
@@ -32,16 +28,13 @@ var $pageFooter = $('#page-footer');
 
 //--- Functions ---
 
-function scrollTo(selector){             // scroll up effect
-    $('body').animate({
-        scrollTop: selector.offset().top -0
-    }, 1000);
-};
+//if (vars['page'] == 'menu') {
+  // $siteBody.addClass('menu-body');
+//}
 
-if (vars['scrollto'] == 'about') {
-    scrollTo($homeAboutSection);
-}
+//if (vars['page'] == 'order') {
+  //  $siteBody.addClass('menu-order');
+//}
 
-if (vars['scrollto'] == 'contact') {
-    scrollTo($pageFooter);
-}
+
+

@@ -13,8 +13,12 @@
 }
 
 hr {
-    width: 50px;
-    border: 3px solid $secondary-dark-color;
+    border-top: 1px solid transparent;
+
+    &.small-line {
+        width: 50px;
+        border: 3px solid $secondary-dark-color;
+    }
 }
 
 // == FONT GLOBAL STYLING == //
@@ -72,9 +76,9 @@ h2, h5, {
 
 p {
     font-family: $font-family-paragraph;
-    font-size: $font-size-sm;
+    font-size: 13px;
     margin: 0;
-    line-height: 26px;
+    line-height: 24px;
 
     &.font-family--heading {
         font-size: $font-size-base;

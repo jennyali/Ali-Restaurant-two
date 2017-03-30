@@ -1,14 +1,15 @@
 
 body {
     background-color: $primary-color;
-    background-image: url(/php-websites/ali-restaurant-two/public/images/food-banner.jpg);
-    background-repeat: no-repeat;
-    background-position: top;
 
-    @include mediaQ--min($bp-sm) {
-        background-attachment: fixed;
-        background-position: center;
-        background-repeat: no-repeat;
-        background-size: cover;
-    }
+}
+
+.menu-body {
+    background: none;
+    background-color: $primary-color;
+}
+
+.menu-order {
+    background: none;
+    background-color: $primary-color;
 }

@@ -24,7 +24,7 @@
                 <div class="col-sm-4 text-center menu-section__category">
                     <div class="inner-box">
                         <div class="outer-box"></div>
-                        <hr>
+                        <hr class="small-line">
                         <h5>Soups</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                         <img src="../public/images/pasta-icon.png">
@@ -34,7 +34,7 @@
                 <div class="col-sm-4 text-center menu-section__category">
                     <div class="inner-box">
                         <div class="outer-box"></div>
-                        <hr>
+                        <hr class="small-line">
                         <h5>Soups</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                         <img src="../public/images/pizza-icon.png">
@@ -44,7 +44,7 @@
                 <div class="col-sm-4 text-center menu-section__category">
                     <div class="inner-box">
                         <div class="outer-box"></div>
-                        <hr>
+                        <hr class="small-line">
                         <h5>Soups</h5>
                         <p>I'm a paragraph. Click here to add your own text and edit me.</p>
                         <img src="../public/images/panini-icon.png">
@@ -62,7 +62,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-12 col-sm-6 col-md-5">
-                    <hr class="pull-right">
+                    <hr class="pull-right small-line">
                     <h2>Our Story Begins In The East</h2>
                     <p>
                         I'm a paragraph. Click here to add your own text and edit me. 
@@ -83,7 +83,7 @@
         <div class="container">
             <div class="row">
                 <div class="col-xs-9 col-sm-8 col-md-6 col-md-offset-6">
-                    <hr class="pull-right">
+                    <hr class="pull-right small-line">
                     <div class="quote-section__text">
                         <h3>"When you drink the water, <span class="font-family--heading">remember the spring"</span></h3>
                     </div>

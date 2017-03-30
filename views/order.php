@@ -17,10 +17,10 @@
 
     <section class="row well hidden-xs">
 
-        <div class="col-sm-2">
+        <div class="col-sm-2 order-form__left-column">
             <p>Hi, guest</p>
-            <ul>
-                <li>Lunch menu <span class="icon-arrow-66"></span>
+            <ul class="list-unstyled">
+                <li>Lunch menu <span class="icon-arrow-66 pull-right"></span>
                     <div>
                         <li> Soups </li>
                         <li> Dumplings </li>
@@ -31,7 +31,7 @@
         
         </div>
 
-        <div class="col-sm-7">
+        <div class="col-sm-7 order-form__center-column">
             <div class="text-center">
                 <h5>Lunch Menu</h5>
                 <p>
@@ -50,48 +50,56 @@
 
                 <div class="row">
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 center-column__food-option">
+                        <div class="center-column__food-option__inner-box">
+                            <figure class="text-center">
+                                <img style="max-width:200px" src="../public/images/pasta-plate.png">
+                            </figure>
+                            <p class="lead">Chicken Noodle Soup</p>
+                            <p class="font-thin">£9</p>
+                            <p>This is a section of your menu. Briefly describe it</p>
 
-                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
-
-                        <p class="lead">Chicken Noodle Soup</p>
-                        <p class="font-thin">£9</p>
-                        <p>This is a section of your menu. Briefly describe it</p>
-
-                        <button class="icon-add-1"></button>
+                            <button class="icon-add-1"></button>
+                        </div>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 center-column__food-option">
+                        <div class="center-column__food-option__inner-box">
+                            <figure class="text-center">
+                                <img style="max-width:200px" src="../public/images/pasta-plate.png">
+                            </figure>
+                            <p class="lead">Chicken Noodle Soup</p>
+                            <p class="font-thin">£9</p>
+                            <p>This is a section of your menu. Briefly describe it</p>
 
-                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
-
-                        <p class="lead">Chicken Noodle Soup</p>
-                        <p class="font-thin">£9</p>
-                        <p>This is a section of your menu. Briefly describe it</p>
-
-                        <button class="icon-add-1"></button>
+                            <button class="icon-add-1"></button>
+                        </div>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 center-column__food-option">
+                        <div class="center-column__food-option__inner-box">
+                            <figure class="text-center">
+                                <img style="max-width:200px" src="../public/images/pasta-plate.png">
+                            </figure>
+                            <p class="lead">Chicken Noodle Soup</p>
+                            <p class="font-thin">£9</p>
+                            <p>This is a section of your menu. Briefly describe it</p>
 
-                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
-
-                        <p class="lead">Chicken Noodle Soup</p>
-                        <p class="font-thin">£9</p>
-                        <p>This is a section of your menu. Briefly describe it</p>
-
-                        <button class="icon-add-1"></button>
+                            <button class="icon-add-1"></button>
+                        </div>
                     </div>
 
-                    <div class="col-sm-6">
+                    <div class="col-sm-6 center-column__food-option">
+                        <div class="center-column__food-option__inner-box">
+                            <figure class="text-center">
+                                <img style="max-width:200px" src="../public/images/pasta-plate.png">
+                            </figure>
+                            <p class="lead">Chicken Noodle Soup</p>
+                            <p class="font-thin">£9</p>
+                            <p>This is a section of your menu. Briefly describe it</p>
 
-                        <img style="max-width:200px" src="../public/images/default-placeholder.png">
-
-                        <p class="lead">Chicken Noodle Soup</p>
-                        <p class="font-thin">£9</p>
-                        <p>This is a section of your menu. Briefly describe it</p>
-
-                        <button class="icon-add-1"></button>
+                            <button class="icon-add-1"></button>
+                        </div>
                     </div>
 
 
@@ -99,7 +107,7 @@
 
         </div>
 
-        <div class="col-sm-3">
+        <div class="col-sm-3 order-form__right-column">
             <div>
                 <p>My Order</p>
                 <p>(0 items)</p>

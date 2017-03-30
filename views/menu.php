@@ -5,7 +5,7 @@
 
 <!-- MENU PAGE -->
 
-<main class="container alt-theme">
+<main class="container alt-theme" id="menu-page">
 
     <section class="row">
 
@@ -31,7 +31,7 @@
 
                 <div class="panel-body">
 
-                <h5>SOUPS</h5>
+                <h5 class="menu-title">SOUPS</h5>
                 <p><em>This is a section of your menu. Briefly describe it</em></p>
 
                 <hr>
@@ -74,7 +74,7 @@
 
                 <hr>
 
-                <h5>Dumplings</h5>
+                <h5 class="menu-title">Dumplings</h5>
                 <p>This is a section of your menu. Briefly describe it</p>
 
                 <hr>
