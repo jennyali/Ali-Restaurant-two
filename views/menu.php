@@ -19,9 +19,9 @@
 
         <div class="col-sm-12">
 
-            <div class="panel panel-default">
+            <div class="panel panel-default" id="menu-block">
 
-                <div class="jumbotron menu-block">
+                <div class="jumbotron">
                     <h5>Lunch Menu</h5>
 
                     <p class="lead font-family--paragraph">
@@ -34,7 +34,7 @@
                 <ul class="nav nav-tabs">
                     <li class="active"><a href="menu.php?category=pizza">Pizza</a></li>
                     <li><a href="menu.php?category=pasta">Pasta</a></li>
-                    <li><a href="?category=panini">Panini's</a></li>
+                    <li><a href="menu.php?category=panini">Panini's</a></li>
                 </ul>
 
                 <div class="tab-content">
