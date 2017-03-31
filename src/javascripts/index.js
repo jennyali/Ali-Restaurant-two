@@ -14,6 +14,6 @@ $(document).ready(function(){
 
 
     require('./nav-scrolls.js');
-    //require('./background-change.js');
+    require('./menu-location.js');
 
 });
