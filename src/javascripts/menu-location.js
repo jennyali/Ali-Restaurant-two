@@ -1,6 +1,3 @@
-
-// Top Site Navigation Scroll To Div Events //
-
 // code snippet to grab a value from a query string URL
 //--------------------------------------------------
 
@@ -14,17 +11,15 @@ if(q != undefined){
         vars[hash[0]] = hash[1];
     }
 }
-//---------------------------------------------------
 
+//---------------------------------------------------
 
 /*===========================
             VIEW
 =============================*/
+//--- Selectors ---
+var $menuList = $('.menu-block');
 
-//-- Selectors --
-
-var $homeAboutSection = $('#home-about-section');
-var $pageFooter = $('#page-footer');
 
 /*===========================
         CONTROLLER
@@ -38,10 +33,14 @@ function scrollTo(selector){             // scroll up effect
     }, 1000);
 };
 
-if (vars['scrollto'] == 'about') {
-    scrollTo($homeAboutSection);
+if (vars['category'] == 'pizza') {
+    scrollTo($menuList);
 }
 
-if (vars['scrollto'] == 'contact') {
-    scrollTo($pageFooter);
+if (vars['category'] == 'pasta') {
+    scrollTo($menuList);
+}
+
+if (vars['category'] == 'panini') {
+    scrollTo($menuList);
 }
