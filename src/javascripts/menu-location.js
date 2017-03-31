@@ -18,29 +18,21 @@ if(q != undefined){
             VIEW
 =============================*/
 //--- Selectors ---
-var $menuList = $('.menu-block');
+var $menuList = $('#menu-block');
 
 
 /*===========================
         CONTROLLER
 =============================*/
 
-//--- Functions ---
-
-function scrollTo(selector){             // scroll up effect
-    $('body').animate({
-        scrollTop: selector.offset().top -0
-    }, 1000);
-};
-
 if (vars['category'] == 'pizza') {
-    scrollTo($menuList);
+    window.location.hash = '#menu-block';
 }
 
 if (vars['category'] == 'pasta') {
-    scrollTo($menuList);
+    window.location.hash = '#menu-block';
 }
 
 if (vars['category'] == 'panini') {
-    scrollTo($menuList);
+    window.location.hash = '#menu-block';
 }
